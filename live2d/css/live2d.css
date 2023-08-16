@@ -1,8 +1,8 @@
 #landlord {
     user-select: none;
     position: fixed;
-    left:0;
-    bottom: 100px;
+    right:50px;
+    bottom: 0px;
     width: 250px;
     height: 250px;
     z-index: 10000;
@@ -16,12 +16,12 @@
 
 .message {
     opacity: 0;
-    width: 300px;
+    width: 280px;
     height: auto;
     margin: auto;
     padding: 7px;
     top: -40px;
-    left: 40px;
+    left: 0px;
     text-align: center;
     border: 1px solid rgba(255,137,255,.4);
     border-radius: 12px;
@@ -48,8 +48,8 @@
     display: none;
     overflow: hidden;
     /* padding: 4px; */
-    width: 60px;
-    height: 20px;
+    width: 50px;
+    height: 25px;
     border: 1px solid rgba(255,137,255,.4);
     border-radius: 12px;
     background: rgba(255,137,255,.2);
