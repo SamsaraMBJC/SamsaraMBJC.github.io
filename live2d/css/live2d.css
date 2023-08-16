@@ -2,9 +2,9 @@
     user-select: none;
     position: fixed;
     right:50px;
-    bottom: 0px;
+    bottom: 50px;
     width: 250px;
-    height: 250px;
+    height: 200px;
     z-index: 10000;
     font-size: 0;
     transition: all .3s ease-in-out;
@@ -66,7 +66,7 @@
 
 @media (max-width: 860px) {
     #landlord {
-        display: none;
+        display: true;
     }
 }
 
