@@ -1,7 +1,7 @@
 #landlord {
     user-select: none;
     position: fixed;
-    left:50px;
+    left:0px;
     bottom: 60px;
     width: 300px;
     height: 300px;
@@ -42,14 +42,14 @@
 
 .hide-button {
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: 0;
     /* bottom: 30px; */
     display: none;
     overflow: hidden;
     /* padding: 4px; */
     width: 50px;
-    height: 20px;
+    height: 25px;
     border: 1px solid rgba(255,137,255,.4);
     border-radius: 12px;
     background: rgba(255,137,255,.2);
