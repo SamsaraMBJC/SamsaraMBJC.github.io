@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/mainfest.json</loc>
+    <loc>http://example.com/manifest.json</loc>
     
     <lastmod>2023-08-20</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/live2d/model/Qpt44/Qpt44.model3.json</loc>
+    <loc>http://example.com/live2d/model/Qpt44/Qpt44.physics3.json</loc>
     
     <lastmod>2023-08-16</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/live2d/model/Qpt44/Qpt44.physics3.json</loc>
+    <loc>http://example.com/live2d/model/Qpt44/Qpt44.model3.json</loc>
     
     <lastmod>2023-08-16</lastmod>
     
