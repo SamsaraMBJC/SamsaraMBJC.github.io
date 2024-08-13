@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://samsarambjc.github.io/live2d/model/Qpt44/Qpt44.physics3.json</loc>
-    
-    <lastmod>2024-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://samsarambjc.github.io/live2d/model/Qpt44/Qpt44.cdi3.json</loc>
     
     <lastmod>2024-08-13</lastmod>
@@ -30,6 +21,15 @@
   
   <url>
     <loc>https://samsarambjc.github.io/live2d/model/Qpt44/Qpt44.model3.json</loc>
+    
+    <lastmod>2024-08-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://samsarambjc.github.io/live2d/model/Qpt44/Qpt44.physics3.json</loc>
     
     <lastmod>2024-08-13</lastmod>
     
