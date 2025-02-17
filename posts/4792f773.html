@@ -1,0 +1,283 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender | SamsaraMBJC'Blog</title><meta name="author" content="SamsaraMBJC"><meta name="copyright" content="SamsaraMBJC"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender修改内容 修改所有的文本内容  12345678910111213141516171819202122232425262728&quot;texts&quot;: [    &amp;#123;        &quot;x&quot;: 80,        &quot;y&quot;: 120,        &quot;text&amp;"><meta property="og:type" content="article"><meta property="og:title" content="【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender"><meta property="og:url" content="https://samsarambjc.github.io/posts/4792f773.html"><meta property="og:site_name" content="SamsaraMBJC&#39;Blog"><meta property="og:description" content="【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender修改内容 修改所有的文本内容  12345678910111213141516171819202122232425262728&quot;texts&quot;: [    &amp;#123;        &quot;x&quot;: 80,        &quot;y&quot;: 120,        &quot;text&amp;"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://samsarambjc.github.io/img/assets/MBJC.gif"><meta property="article:published_time" content="2024-08-16T00:00:00.000Z"><meta property="article:modified_time" content="2025-02-17T05:09:34.847Z"><meta property="article:author" content="SamsaraMBJC"><meta property="article:tag" content="Dify"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://samsarambjc.github.io/img/assets/MBJC.gif"><link rel="shortcut icon" href="/img/assets/MBJC.png"><link rel="canonical" href="https://samsarambjc.github.io/posts/4792f773.html"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="//busuanzi.ibruce.info"><link rel="manifest" href="/manifest.json"><meta name="msapplication-TileColor" content="#030A14"><link rel="apple-touch-icon" sizes="180x180" href="/img/siteicon/128.png"><link rel="icon" type="image/png" sizes="32x32" href="/img/siteicon/32.png"><link rel="icon" type="image/png" sizes="16x16" href="/img/siteicon/16.png"><link rel="mask-icon" href="/img/siteicon/128.png" color="#5bbad5"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload='this.media="all"'><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload='this.media="all"'><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE={title:"【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender",isPost:!0,isHome:!1,isHighlightShrink:!1,isToc:!0,postUpdate:"2025-02-17 05:09:34"}</script><noscript><style>#nav{opacity:1}.justified-gallery img{opacity:1}#post-meta time,#recent-posts time{display:inline!important}</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload='this.media="all"'><link rel="stylesheet" href="/live2d/css/live2d.css"><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css"><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload='this.media="all"'><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload='this.media="all"'><script src="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload='this.media="screen"'><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="SamsaraMBJC'Blog" type="application/atom+xml"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/assets/MBJC.gif" onerror='onerror=null,src="/img/friend_404.gif"' alt="avatar"></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i> <span>主页</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-envelope"></i> <span>评论</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i> <span>文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i> <span>归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i> <span>标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i> <span>分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i> <span>友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="SamsaraMBJC'Blog"><span class="site-name">SamsaraMBJC'Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i> <span>搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i> <span>主页</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-envelope"></i> <span>评论</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i> <span>文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i> <span>归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i> <span>标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i> <span>分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i> <span>友链</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-08-16T00:00:00.000Z" title="发表于 2024-08-16 00:00:00">2024-08-16</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-02-17T05:09:34.847Z" title="更新于 2025-02-17 05:09:34">2025-02-17</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" data-flag-title="【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="【MBJC】学习笔记8-Dify工作流-运营一条龙-ImgRender"><a href="#【MBJC】学习笔记8-Dify工作流-运营一条龙-ImgRender" class="headerlink" title="【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender"></a>【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender</h1><h2 id="修改内容"><a href="#修改内容" class="headerlink" title="修改内容"></a>修改内容</h2><ul><li>修改所有的文本内容</li></ul><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;texts&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;x&quot;</span><span class="punctuation">:</span> <span class="number">80</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;y&quot;</span><span class="punctuation">:</span> <span class="number">120</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123;&#123; content &#125;&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;width&quot;</span><span class="punctuation">:</span> <span class="number">920</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;font&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Alibaba-PuHuiTi-Heavy&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;fontSize&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span> font_size|float <span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">,</span> <span class="comment">//去除“&#123;&#123; font_size|float &#125;&#125;”双引号</span></span><br><span class="line">        <span class="attr">&quot;lineHeight&quot;</span><span class="punctuation">:</span> <span class="number">24</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;lineSpacing&quot;</span><span class="punctuation">:</span> <span class="number">1.3</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;color&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123;&#123; detail_color &#125;&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;textAlign&quot;</span><span class="punctuation">:</span> <span class="string">&quot;left&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;zIndex&quot;</span><span class="punctuation">:</span> <span class="number">1</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;x&quot;</span><span class="punctuation">:</span> <span class="number">540</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;y&quot;</span><span class="punctuation">:</span> <span class="number">1240</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123;&#123; your_name &#125;&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;width&quot;</span><span class="punctuation">:</span> <span class="number">800</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;font&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Alibaba-PuHuiTi-Heavy&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;fontSize&quot;</span><span class="punctuation">:</span> <span class="number">60</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;lineHeight&quot;</span><span class="punctuation">:</span> <span class="number">24</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;lineSpacing&quot;</span><span class="punctuation">:</span> <span class="number">1.3</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;color&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123;&#123; name_color &#125;&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;textAlign&quot;</span><span class="punctuation">:</span> <span class="string">&quot;center&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;zIndex&quot;</span><span class="punctuation">:</span> <span class="number">1</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span><span class="punctuation">,</span></span><br></pre></td></tr></table></figure><ul><li>修改所有竖版封面大小内容</li></ul><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;width&quot;</span><span class="punctuation">:</span> <span class="number">1440</span><span class="punctuation">,</span> <span class="comment">//原来好像是1920超过大小限制</span></span><br><span class="line">    <span class="attr">&quot;height&quot;</span><span class="punctuation">:</span> <span class="number">1080</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;backgroundColor&quot;</span><span class="punctuation">:</span> <span class="string">&quot;#ffffff&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderColor&quot;</span><span class="punctuation">:</span> <span class="string">&quot;#ffffff&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderWidth&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderRadius&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderTopLeftRadius&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderTopRightRadius&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderBottomLeftRadius&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderBottomRightRadius&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><ul><li>修改所有Imgender中的 Authorization API-Key</li></ul><p>注册链接：<a target="_blank" rel="noopener" href="https://www.imgrender.net/">https://www.imgrender.net/</a></p><ul><li>超过50节点，删除闲置二维码功能内容</li></ul><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">SamsaraTech专注于提供实时数字人服务</span><br><span class="line"></span><br><span class="line">多模态大语音模型LLM、ASR、TTS、流式推理、wav2lip、EchoMimic、MuseTalk、SadTalker、Gpt-sovits、ChatTTS、faster-whisper</span><br><span class="line"></span><br><span class="line">多模态大语音模型LLM、ASR、TTS、流式推理、wav2lip、EchoMimic、MuseTalk、SadTalker、Gpt-sovits、ChatTTS、faster-whisper</span><br><span class="line"></span><br><span class="line">专业、严谨、丰富</span><br></pre></td></tr></table></figure><h2 id="测试结果"><a href="#测试结果" class="headerlink" title="测试结果"></a>测试结果</h2><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="../img/8/1.png" alt=""><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="../img/8/2.png" alt=""><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="../img/8/3.png" alt=""><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="../img/8/4.png" alt=""><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="../img/8/5.png" alt=""><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="../img/8/6.png" alt=""><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="../img/8/7.png" alt=""></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kCrQp8YZTsQ">https://www.youtube.com/watch?v=kCrQp8YZTsQ</a></li></ul></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者:</span> <span class="post-copyright-info"><a href="https://samsarambjc.github.io">SamsaraMBJC</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接:</span> <span class="post-copyright-info"><a href="https://samsarambjc.github.io/posts/4792f773.html">https://samsarambjc.github.io/posts/4792f773.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明:</span> <span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://samsarambjc.github.io" target="_blank">SamsaraMBJC'Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Dify/">Dify</a></div><div class="post_share"><div class="social-share" data-image="/img/assets/MBJC.gif" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload='this.media="all"'><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><link rel="stylesheet" href="/css/coin/coin.css" media="defer" onload='this.media="all"'><div class="post-reward"><button class="tip-button reward-button"><span class="tip-button__text">不给糖就捣蛋！</span><div class="coin-wrapper"><div class="coin"><div class="coin__middle"></div><div class="coin__back"></div><div class="coin__front"></div></div></div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/QR/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/QR/wechat.jpg" alt="wechat"></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/img/QR/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/QR/alipay.jpg" alt="alipay"></a><div class="post-qr-code-desc">alipay</div></li></ul></div></button></div><audio id="coinAudio" src="https://cdn.cbd.int/akilar-candyassets@1.0.36/audio/aowu.m4a"></audio><script defer src="/js/coin/coin.js"></script><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/35371dbc.html" title="【MBJC】学习笔记7 Dify文本生成应用 SEO批量生成"><div class="cover" style="background:var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">【MBJC】学习笔记7 Dify文本生成应用 SEO批量生成</div></div></a></div><div class="next-post pull-right"><a href="/posts/81fbb64.html" title="【MBJC】学习笔记9 Dify自定义工具 雪球API查询股票实时行情数据Agent"><div class="cover" style="background:var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">【MBJC】学习笔记9 Dify自定义工具 雪球API查询股票实时行情数据Agent</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/435edc42.html" title="【MBJC】学习笔记6 Dify获取网络爬虫数据 新闻编辑助手"><div class="cover" style="background:var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-16</div><div class="title">【MBJC】学习笔记6 Dify获取网络爬虫数据 新闻编辑助手</div></div></a></div><div><a href="/posts/35371dbc.html" title="【MBJC】学习笔记7 Dify文本生成应用 SEO批量生成"><div class="cover" style="background:var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-16</div><div class="title">【MBJC】学习笔记7 Dify文本生成应用 SEO批量生成</div></div></a></div><div><a href="/posts/81fbb64.html" title="【MBJC】学习笔记9 Dify自定义工具 雪球API查询股票实时行情数据Agent"><div class="cover" style="background:var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-16</div><div class="title">【MBJC】学习笔记9 Dify自定义工具 雪球API查询股票实时行情数据Agent</div></div></a></div></div></div><hr class="custom-hr"><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i> <span>评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/assets/MBJC.gif" onerror='this.onerror=null,this.src="/img/friend_404.gif"' alt="avatar"></div><div class="author-info__name">SamsaraMBJC</div><div class="author-info__description">SamsaraMBJC的博客，这只萌新小白就是菜啦。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/SamsaraMBJC"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E3%80%90MBJC%E3%80%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B08-Dify%E5%B7%A5%E4%BD%9C%E6%B5%81-%E8%BF%90%E8%90%A5%E4%B8%80%E6%9D%A1%E9%BE%99-ImgRender"><span class="toc-number">1.</span> <span class="toc-text">【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E5%86%85%E5%AE%B9"><span class="toc-number">1.1.</span> <span class="toc-text">修改内容</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9"><span class="toc-number">1.2.</span> <span class="toc-text">测试内容</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C"><span class="toc-number">1.3.</span> <span class="toc-text">测试结果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="toc-number">1.4.</span> <span class="toc-text">参考资料</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/4a17b156.html" title="Hello World">Hello World</a><time datetime="2025-02-17T05:09:34.847Z" title="发表于 2025-02-17 05:09:34">2025-02-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/e12dbe72.html" title="【MBJC】学习笔记10 Ollama安装Deepseek、QQ微信聊天机器人部署">【MBJC】学习笔记10 Ollama安装Deepseek、QQ微信聊天机器人部署</a><time datetime="2025-02-12T22:07:19.000Z" title="发表于 2025-02-12 22:07:19">2025-02-12</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/ca5cb113.html" title="【MBJC】博客改造2 （增加友链、增加打赏投币效果）">【MBJC】博客改造2 （增加友链、增加打赏投币效果）</a><time datetime="2025-02-12T21:24:28.000Z" title="发表于 2025-02-12 21:24:28">2025-02-12</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/58648090.html" title="【MBJC】学习笔记1 windows11 wsl2 配置Linux子系统 安装 Ubuntu22.04 配置gnome GUI">【MBJC】学习笔记1 windows11 wsl2 配置Linux子系统 安装 Ubuntu22.04 配置gnome GUI</a><time datetime="2024-08-16T00:00:00.000Z" title="发表于 2024-08-16 00:00:00">2024-08-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/58648090.html" title="【MBJC】学习笔记2 windows11 wsl2 配置Linux子系统 安装 Ubuntu20.04 配置Nvidia深度强化学习环境">【MBJC】学习笔记2 windows11 wsl2 配置Linux子系统 安装 Ubuntu20.04 配置Nvidia深度强化学习环境</a><time datetime="2024-08-16T00:00:00.000Z" title="发表于 2024-08-16 00:00:00">2024-08-16</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2025 By SamsaraMBJC</div><div class="framework-info"><span>框架</span> <a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题</span> <a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>(()=>{
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://twikoo-ovx4g1e4k-samsarambjcs-projects.vercel.app/',
+      region: '',
+      onCommentLoaded: function () {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo-ovx4g1e4k-samsarambjcs-projects.vercel.app/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      countELement.textContent = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const runFn = () => {
+    init()
+    
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') {
+      setTimeout(runFn,0)
+      return
+    } 
+    getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script></div><div class="aplayer no-destroy" data-id="10158241551" data-server="netease" data-type="playlist" data-order="list" data-fixed="true" data-preload="auto" data-autoplay="false" data-mutex="true"></div><div id="landlord"><div class="message" style="opacity:0"></div><canvas id="live2d" width="300" height="300" class="live2d"></canvas><div class="hide-button">隐藏</div></div><script src="https://unpkg.com/core-js-bundle@3.6.1/minified.js"></script><script src="live2d/Core/live2dcubismcore.js"></script><script src="live2d/dist/bundle.js"></script><script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script><script>var message_Path="/live2d/",home_Path="https://samsarambjc.github.io/"</script><script src="/live2d/js/message.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload='this.media="all"'><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><div class="app-refresh" id="app-refresh" style="position:fixed;top:-2.2rem;left:0;right:0;z-index:99999;padding:0 1rem;font-size:15px;height:2.2rem;transition:all .3s ease"><div class="app-refresh-wrap" style="display:flex;color:#fff;height:100%;align-items:center;justify-content:center"><label>✨ 有新文章啦！ 👉</label><a href="javascript:void(0)" onclick="location.reload()"><span style="color:#fff;text-decoration:underline;cursor:pointer">🍗点击食用🍔</span></a></div></div><script>if ('serviceWorker' in navigator) {
+if (navigator.serviceWorker.controller) {
+navigator.serviceWorker.addEventListener('controllerchange', function() {
+showNotification()
+})
+}
+window.addEventListener('load', function() {
+navigator.serviceWorker.register('/sw.js')
+})
+}
+function showNotification() {
+if (GLOBAL_CONFIG.Snackbar) {
+var snackbarBg =
+document.documentElement.getAttribute('data-theme') === 'light' ?
+GLOBAL_CONFIG.Snackbar.bgLight :
+GLOBAL_CONFIG.Snackbar.bgDark
+var snackbarPos = GLOBAL_CONFIG.Snackbar.position
+Snackbar.show({
+text: '✨ 有新文章啦！ 👉',
+backgroundColor: snackbarBg,
+duration: 500000,
+pos: snackbarPos,
+actionText: '🍗点击食用🍔',
+actionTextColor: '#fff',
+onActionClick: function(e) {
+location.reload()
+},
+})
+} else {
+var showBg =
+document.documentElement.getAttribute('data-theme') === 'light' ?
+'#3b70fc' :
+'#1f1f1f'
+var cssText = `top: 0; background: ${showBg};`
+document.getElementById('app-refresh').style.cssText = cssText
+}
+}</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i> <span>数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div></div><hr><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div><script data-pjax>function butterfly_clock_anzhiyu_injector_config(){var a=document.getElementsByClassName("sticky_layout")[0];console.log("已挂载butterfly_clock_anzhiyu"),a&&a.insertAdjacentHTML("afterbegin",'<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>')}for(var elist="null".split(","),cpage=location.pathname,epage="all",qweather_key="ee4a07344f654553802dd5be50a10af8",gaud_map_key="8a1e81dddc3a105e2cccc4192d69660c",baidu_ak_key="undefined",flag=0,clock_rectangle="112.982279,28.19409",clock_default_rectangle_enable="false",i=0;i<elist.length;i++)cpage.includes(elist[i])&&flag++;"all"===epage&&0==flag?butterfly_clock_anzhiyu_injector_config():epage===cpage&&butterfly_clock_anzhiyu_injector_config()</script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js"></script><script async src="/js/ali_font.js"></script><div class="js-pjax"><script async>for(var arr=document.getElementsByClassName("recent-post-item"),i=0;i<arr.length;i++)arr[i].classList.add("wow"),arr[i].classList.add("animate__zoomIn"),arr[i].setAttribute("data-wow-duration","1.5s"),arr[i].setAttribute("data-wow-delay","200ms"),arr[i].setAttribute("data-wow-offset","30"),arr[i].setAttribute("data-wow-iteration","1")</script><script async>for(var arr=document.getElementsByClassName("card-widget"),i=0;i<arr.length;i++)arr[i].classList.add("wow"),arr[i].classList.add("animate__zoomIn"),arr[i].setAttribute("data-wow-duration",""),arr[i].setAttribute("data-wow-delay","200ms"),arr[i].setAttribute("data-wow-offset",""),arr[i].setAttribute("data-wow-iteration","")</script><script async>for(var arr=document.getElementsByClassName("flink-list-card"),i=0;i<arr.length;i++)arr[i].classList.add("wow"),arr[i].classList.add("animate__flipInY"),arr[i].setAttribute("data-wow-duration","3s"),arr[i].setAttribute("data-wow-delay",""),arr[i].setAttribute("data-wow-offset",""),arr[i].setAttribute("data-wow-iteration","")</script><script async>for(var arr=document.getElementsByClassName("flink-list-card"),i=0;i<arr.length;i++)arr[i].classList.add("wow"),arr[i].classList.add("animate__animated"),arr[i].setAttribute("data-wow-duration","3s"),arr[i].setAttribute("data-wow-delay",""),arr[i].setAttribute("data-wow-offset",""),arr[i].setAttribute("data-wow-iteration","")</script><script async>for(var arr=document.getElementsByClassName("article-sort-item"),i=0;i<arr.length;i++)arr[i].classList.add("wow"),arr[i].classList.add("animate__slideInRight"),arr[i].setAttribute("data-wow-duration","1.5s"),arr[i].setAttribute("data-wow-delay",""),arr[i].setAttribute("data-wow-offset",""),arr[i].setAttribute("data-wow-iteration","")</script><script async>for(var arr=document.getElementsByClassName("site-card"),i=0;i<arr.length;i++)arr[i].classList.add("wow"),arr[i].classList.add("animate__flipInY"),arr[i].setAttribute("data-wow-duration","3s"),arr[i].setAttribute("data-wow-delay",""),arr[i].setAttribute("data-wow-offset",""),arr[i].setAttribute("data-wow-iteration","")</script><script async>for(var arr=document.getElementsByClassName("site-card"),i=0;i<arr.length;i++)arr[i].classList.add("wow"),arr[i].classList.add("animate__animated"),arr[i].setAttribute("data-wow-duration","3s"),arr[i].setAttribute("data-wow-delay",""),arr[i].setAttribute("data-wow-offset",""),arr[i].setAttribute("data-wow-iteration","")</script></div><script defer src="https://cdn.cbd.int/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://cdn.cbd.int/hexo-butterfly-wowjs/lib/wow_init.js"></script></body></html>
