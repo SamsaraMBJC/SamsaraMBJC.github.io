@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>【MBJC】游戏攻略2 文明6 免费虚拟组网联机注入新方案</title>
+      <link href="/posts/9b98a88d.html"/>
+      <url>/posts/9b98a88d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="【MBJC】游戏攻略2-文明6-免费虚拟组网联机注入新方案"><a href="#【MBJC】游戏攻略2-文明6-免费虚拟组网联机注入新方案" class="headerlink" title="【MBJC】游戏攻略2 文明6 免费虚拟组网联机注入新方案"></a>【MBJC】游戏攻略2 文明6 免费虚拟组网联机注入新方案</h1><h2 id="1、下载游戏"><a href="#1、下载游戏" class="headerlink" title="1、下载游戏"></a>1、下载游戏</h2><ul><li><p>链接: <a href="https://pan.baidu.com/s/13wQNW4qT8wOgvnRkjDMl4Q?pwd=MBJC">https://pan.baidu.com/s/13wQNW4qT8wOgvnRkjDMl4Q?pwd=MBJC</a></p></li><li><p>提取码: MBJC</p></li></ul><h2 id="2、RadminVPN-虚拟组网"><a href="#2、RadminVPN-虚拟组网" class="headerlink" title="2、RadminVPN 虚拟组网"></a>2、RadminVPN 虚拟组网</h2><p><img src="../img/wenm6_2/1.png" alt=""></p><h2 id="3、运行文明六游戏"><a href="#3、运行文明六游戏" class="headerlink" title="3、运行文明六游戏"></a>3、运行文明六游戏</h2><h2 id="4、注入房主IP（房主只需要打开RadminVPN-不用注入，除房主外其他玩家需要）"><a href="#4、注入房主IP（房主只需要打开RadminVPN-不用注入，除房主外其他玩家需要）" class="headerlink" title="4、注入房主IP（房主只需要打开RadminVPN,不用注入，除房主外其他玩家需要）"></a>4、注入房主IP（房主只需要打开RadminVPN,不用注入，除房主外其他玩家需要）</h2><p><img src="../img/wenm6_2/2.png" alt=""></p><p><img src="../img/wenm6_2/3.png" alt=""></p><h2 id="5、注入完成正常加入房间即可"><a href="#5、注入完成正常加入房间即可" class="headerlink" title="5、注入完成正常加入房间即可"></a>5、注入完成正常加入房间即可</h2><p><img src="../img/wenm6_2/4.png" alt=""></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><p><a href="https://github.com/xaxys/injciv6">https://github.com/xaxys/injciv6</a></p></li><li><p><a href="bilibili.com/video/BV1qV411X7FP/">bilibili.com/video/BV1qV411X7FP/</a></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 游戏攻略 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 文明6 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/posts/4a17b156.html"/>
       <url>/posts/4a17b156.html</url>
@@ -192,11 +217,11 @@
     
     
     <entry>
-      <title>【MBJC】学习笔记6 Dify获取网络爬虫数据 新闻编辑助手</title>
-      <link href="/posts/435edc42.html"/>
-      <url>/posts/435edc42.html</url>
+      <title>【MBJC】学习笔记7 Dify文本生成应用 SEO批量生成</title>
+      <link href="/posts/35371dbc.html"/>
+      <url>/posts/35371dbc.html</url>
       
-        <content type="html"><![CDATA[<h1 id="【MBJC】学习笔记6-Dify获取网络爬虫数据-新闻编辑助手"><a href="#【MBJC】学习笔记6-Dify获取网络爬虫数据-新闻编辑助手" class="headerlink" title="【MBJC】学习笔记6 Dify获取网络爬虫数据 新闻编辑助手"></a>【MBJC】学习笔记6 Dify获取网络爬虫数据 新闻编辑助手</h1><h2 id="LLM-prompt（翻译官）"><a href="#LLM-prompt（翻译官）" class="headerlink" title="LLM prompt（翻译官）"></a>LLM prompt（翻译官）</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">You are a translator. Please translate the content into Chinese.</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">The content is provided below wrapped by tag &lt;context&gt;&lt;/context&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;context&gt;</span><br><span class="line">&#123;&#123;#context#&#125;&#125;</span><br><span class="line">&lt;/context&gt;</span><br></pre></td></tr></table></figure><h2 id="LLM1-prompt-新闻编辑"><a href="#LLM1-prompt-新闻编辑" class="headerlink" title="LLM1 prompt(新闻编辑)"></a>LLM1 prompt(新闻编辑)</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">你是编辑，基于提供的内容，编写一份新闻稿。</span><br><span class="line"></span><br><span class="line">新闻稿需要包含如下元素：</span><br><span class="line">1.标题</span><br><span class="line">2.正文</span><br><span class="line">3.标签</span><br><span class="line"></span><br><span class="line">标签用于新闻稿发布时做标记，便于对历史新闻做分类。</span><br><span class="line"></span><br><span class="line">原始内容如下：</span><br><span class="line"></span><br><span class="line">&#123;&#123;#context#&#125;&#125;</span><br></pre></td></tr></table></figure><h2 id="测试url"><a href="#测试url" class="headerlink" title="测试url"></a>测试url</h2><p><a href="https://olympics.com/en/news/paris-2024-fan-zehndong-takes-table-tennis-individual-gold">https://olympics.com/en/news/paris-2024-fan-zehndong-takes-table-tennis-individual-gold</a></p><h2 id="爬虫结果"><a href="#爬虫结果" class="headerlink" title="爬虫结果"></a>爬虫结果</h2><p><img src="../img/6/1.png" alt=""></p><h2 id="测试结果"><a href="#测试结果" class="headerlink" title="测试结果"></a>测试结果</h2><p><img src="../img/6/2.png" alt=""><br><img src="../img/6/3.png" alt=""></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://www.bilibili.com/video/BV1tn4y1f7pn/?vd_source=a6067b731745325c01a4edfa46bf5a04">https://www.bilibili.com/video/BV1tn4y1f7pn/?vd_source=a6067b731745325c01a4edfa46bf5a04</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="【MBJC】学习笔记7-Dify文本生成应用-SEO批量生成"><a href="#【MBJC】学习笔记7-Dify文本生成应用-SEO批量生成" class="headerlink" title="【MBJC】学习笔记7 Dify文本生成应用 SEO批量生成"></a>【MBJC】学习笔记7 Dify文本生成应用 SEO批量生成</h1><h2 id="LLM-prompt"><a href="#LLM-prompt" class="headerlink" title="LLM prompt"></a>LLM prompt</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123;query&#125;&#125;你是一个SEO专家，请根据我提供给你的关键词和相关内容，编写一篇富有创意的文章，需要使用# 标题和## 子标题。尝试使用缩略语、过渡性短语、感叹词、悬垂修饰语和口语化表达，避免重复的短语和不自然的句子结构。文章应包括创新的标题，SEO元描述，简介。如果需要，请添加项目符号或编号列表，写下常见问题和结论。在编写标题时，尽量不要改变原始的关键词和相关内容。尝试在文章中2-3次使用关键词或相关内容，也尝试将关键词或相关内容包含在标题中。字数在2000字以内，使用中文。</span><br></pre></td></tr></table></figure><h2 id="测试内容（查询内容-csv）"><a href="#测试内容（查询内容-csv）" class="headerlink" title="测试内容（查询内容.csv）"></a>测试内容（查询内容.csv）</h2><div class="table-container"><table><thead><tr><th>查询内容</th></tr></thead><tbody><tr><td>## 关键词：人工智能、大模型（LLM）、微调、RAG、API<br>## 相关内容：（轮回科技SamsaraTech，LLM大模型平台，提供模型微调，RAG，API接口调用等服务</td></tr><tr><td>## 关键词：智能机器人、具身智能、人形机器人、协作机器人、遥操作、强化学习、大模型（LLM）、模仿学习、迁移学习、多模态模型<br>## 相关内容：（轮回科技）SamsaraTech，提供具身智能全栈机器人服务，协作机器人和人形机器人在工业、家居和服务等场景下使用，提供遥操作、强化学习、大模型（LLM）、模仿学习、迁移学习、多模态模型多种多维度先进技术解决方案</td></tr><tr><td>## 关键词：人工智能、数字人、多模态大模型、ASR、TTS<br>## 相关内容：（轮回科技）SamsaraTech，提供个性化定制数字人服务，包括2D动漫形象和3D真人形象，无人直播和实时对话交流，提供先进的语音识别和文本转语音模型流式推理服务和训练平台</td></tr><tr><td>## 关键词：人工智能、智能家居机器人、医疗手术机器人、脑机接口、仿生假肢、类脑量子计算<br>## 相关内容：（轮回科技）SamsaraTech，聚焦智能家居机器人与医疗手术机器人，专注类脑计算和量子计算，在医疗领域提供脑机接口和仿生假肢乃至于义体等个性化定制服务，关注与人机交互结合和生命健康等领域</td></tr></tbody></table></div><h2 id="测试结果"><a href="#测试结果" class="headerlink" title="测试结果"></a>测试结果</h2><p><img src="../img/7/1.png" alt=""><br><img src="../img/7/2.png" alt=""><br><img src="../img/7/3.png" alt=""><br><img src="../img/7/4.png" alt=""></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://mp.weixin.qq.com/s/6S17D3tPvVglwlJ6T5ZAYA">https://mp.weixin.qq.com/s/6S17D3tPvVglwlJ6T5ZAYA</a></li></ul>]]></content>
       
       
       <categories>
@@ -222,31 +247,6 @@
       <url>/posts/4792f773.html</url>
       
         <content type="html"><![CDATA[<h1 id="【MBJC】学习笔记8-Dify工作流-运营一条龙-ImgRender"><a href="#【MBJC】学习笔记8-Dify工作流-运营一条龙-ImgRender" class="headerlink" title="【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender"></a>【MBJC】学习笔记8 Dify工作流 运营一条龙 ImgRender</h1><h2 id="修改内容"><a href="#修改内容" class="headerlink" title="修改内容"></a>修改内容</h2><ul><li>修改所有的文本内容</li></ul><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;texts&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;x&quot;</span><span class="punctuation">:</span> <span class="number">80</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;y&quot;</span><span class="punctuation">:</span> <span class="number">120</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123;&#123; content &#125;&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;width&quot;</span><span class="punctuation">:</span> <span class="number">920</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;font&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Alibaba-PuHuiTi-Heavy&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;fontSize&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="punctuation">&#123;</span> font_size|float <span class="punctuation">&#125;</span><span class="punctuation">&#125;</span><span class="punctuation">,</span> <span class="comment">//去除“&#123;&#123; font_size|float &#125;&#125;”双引号</span></span><br><span class="line">        <span class="attr">&quot;lineHeight&quot;</span><span class="punctuation">:</span> <span class="number">24</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;lineSpacing&quot;</span><span class="punctuation">:</span> <span class="number">1.3</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;color&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123;&#123; detail_color &#125;&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;textAlign&quot;</span><span class="punctuation">:</span> <span class="string">&quot;left&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;zIndex&quot;</span><span class="punctuation">:</span> <span class="number">1</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;x&quot;</span><span class="punctuation">:</span> <span class="number">540</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;y&quot;</span><span class="punctuation">:</span> <span class="number">1240</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123;&#123; your_name &#125;&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;width&quot;</span><span class="punctuation">:</span> <span class="number">800</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;font&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Alibaba-PuHuiTi-Heavy&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;fontSize&quot;</span><span class="punctuation">:</span> <span class="number">60</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;lineHeight&quot;</span><span class="punctuation">:</span> <span class="number">24</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;lineSpacing&quot;</span><span class="punctuation">:</span> <span class="number">1.3</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;color&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123;&#123; name_color &#125;&#125;&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;textAlign&quot;</span><span class="punctuation">:</span> <span class="string">&quot;center&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;zIndex&quot;</span><span class="punctuation">:</span> <span class="number">1</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span><span class="punctuation">,</span></span><br></pre></td></tr></table></figure><ul><li>修改所有竖版封面大小内容</li></ul><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;width&quot;</span><span class="punctuation">:</span> <span class="number">1440</span><span class="punctuation">,</span> <span class="comment">//原来好像是1920超过大小限制</span></span><br><span class="line">    <span class="attr">&quot;height&quot;</span><span class="punctuation">:</span> <span class="number">1080</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;backgroundColor&quot;</span><span class="punctuation">:</span> <span class="string">&quot;#ffffff&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderColor&quot;</span><span class="punctuation">:</span> <span class="string">&quot;#ffffff&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderWidth&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderRadius&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderTopLeftRadius&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderTopRightRadius&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderBottomLeftRadius&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;borderBottomRightRadius&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><ul><li>修改所有Imgender中的 Authorization API-Key</li></ul><p>注册链接：<a href="https://www.imgrender.net/">https://www.imgrender.net/</a></p><ul><li>超过50节点，删除闲置二维码功能内容</li></ul><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">SamsaraTech专注于提供实时数字人服务</span><br><span class="line"></span><br><span class="line">多模态大语音模型LLM、ASR、TTS、流式推理、wav2lip、EchoMimic、MuseTalk、SadTalker、Gpt-sovits、ChatTTS、faster-whisper</span><br><span class="line"></span><br><span class="line">多模态大语音模型LLM、ASR、TTS、流式推理、wav2lip、EchoMimic、MuseTalk、SadTalker、Gpt-sovits、ChatTTS、faster-whisper</span><br><span class="line"></span><br><span class="line">专业、严谨、丰富</span><br></pre></td></tr></table></figure><h2 id="测试结果"><a href="#测试结果" class="headerlink" title="测试结果"></a>测试结果</h2><p><img src="../img/8/1.png" alt=""><br><img src="../img/8/2.png" alt=""><br><img src="../img/8/3.png" alt=""><br><img src="../img/8/4.png" alt=""><br><img src="../img/8/5.png" alt=""><br><img src="../img/8/6.png" alt=""><br><img src="../img/8/7.png" alt=""></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://www.youtube.com/watch?v=kCrQp8YZTsQ">https://www.youtube.com/watch?v=kCrQp8YZTsQ</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习笔记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Dify </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>【MBJC】学习笔记7 Dify文本生成应用 SEO批量生成</title>
-      <link href="/posts/35371dbc.html"/>
-      <url>/posts/35371dbc.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="【MBJC】学习笔记7-Dify文本生成应用-SEO批量生成"><a href="#【MBJC】学习笔记7-Dify文本生成应用-SEO批量生成" class="headerlink" title="【MBJC】学习笔记7 Dify文本生成应用 SEO批量生成"></a>【MBJC】学习笔记7 Dify文本生成应用 SEO批量生成</h1><h2 id="LLM-prompt"><a href="#LLM-prompt" class="headerlink" title="LLM prompt"></a>LLM prompt</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123;query&#125;&#125;你是一个SEO专家，请根据我提供给你的关键词和相关内容，编写一篇富有创意的文章，需要使用# 标题和## 子标题。尝试使用缩略语、过渡性短语、感叹词、悬垂修饰语和口语化表达，避免重复的短语和不自然的句子结构。文章应包括创新的标题，SEO元描述，简介。如果需要，请添加项目符号或编号列表，写下常见问题和结论。在编写标题时，尽量不要改变原始的关键词和相关内容。尝试在文章中2-3次使用关键词或相关内容，也尝试将关键词或相关内容包含在标题中。字数在2000字以内，使用中文。</span><br></pre></td></tr></table></figure><h2 id="测试内容（查询内容-csv）"><a href="#测试内容（查询内容-csv）" class="headerlink" title="测试内容（查询内容.csv）"></a>测试内容（查询内容.csv）</h2><div class="table-container"><table><thead><tr><th>查询内容</th></tr></thead><tbody><tr><td>## 关键词：人工智能、大模型（LLM）、微调、RAG、API<br>## 相关内容：（轮回科技SamsaraTech，LLM大模型平台，提供模型微调，RAG，API接口调用等服务</td></tr><tr><td>## 关键词：智能机器人、具身智能、人形机器人、协作机器人、遥操作、强化学习、大模型（LLM）、模仿学习、迁移学习、多模态模型<br>## 相关内容：（轮回科技）SamsaraTech，提供具身智能全栈机器人服务，协作机器人和人形机器人在工业、家居和服务等场景下使用，提供遥操作、强化学习、大模型（LLM）、模仿学习、迁移学习、多模态模型多种多维度先进技术解决方案</td></tr><tr><td>## 关键词：人工智能、数字人、多模态大模型、ASR、TTS<br>## 相关内容：（轮回科技）SamsaraTech，提供个性化定制数字人服务，包括2D动漫形象和3D真人形象，无人直播和实时对话交流，提供先进的语音识别和文本转语音模型流式推理服务和训练平台</td></tr><tr><td>## 关键词：人工智能、智能家居机器人、医疗手术机器人、脑机接口、仿生假肢、类脑量子计算<br>## 相关内容：（轮回科技）SamsaraTech，聚焦智能家居机器人与医疗手术机器人，专注类脑计算和量子计算，在医疗领域提供脑机接口和仿生假肢乃至于义体等个性化定制服务，关注与人机交互结合和生命健康等领域</td></tr></tbody></table></div><h2 id="测试结果"><a href="#测试结果" class="headerlink" title="测试结果"></a>测试结果</h2><p><img src="../img/7/1.png" alt=""><br><img src="../img/7/2.png" alt=""><br><img src="../img/7/3.png" alt=""><br><img src="../img/7/4.png" alt=""></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://mp.weixin.qq.com/s/6S17D3tPvVglwlJ6T5ZAYA">https://mp.weixin.qq.com/s/6S17D3tPvVglwlJ6T5ZAYA</a></li></ul>]]></content>
       
       
       <categories>
@@ -342,6 +342,31 @@
     
     
     <entry>
+      <title>【MBJC】学习笔记6 Dify获取网络爬虫数据 新闻编辑助手</title>
+      <link href="/posts/435edc42.html"/>
+      <url>/posts/435edc42.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="【MBJC】学习笔记6-Dify获取网络爬虫数据-新闻编辑助手"><a href="#【MBJC】学习笔记6-Dify获取网络爬虫数据-新闻编辑助手" class="headerlink" title="【MBJC】学习笔记6 Dify获取网络爬虫数据 新闻编辑助手"></a>【MBJC】学习笔记6 Dify获取网络爬虫数据 新闻编辑助手</h1><h2 id="LLM-prompt（翻译官）"><a href="#LLM-prompt（翻译官）" class="headerlink" title="LLM prompt（翻译官）"></a>LLM prompt（翻译官）</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">You are a translator. Please translate the content into Chinese.</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">The content is provided below wrapped by tag &lt;context&gt;&lt;/context&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;context&gt;</span><br><span class="line">&#123;&#123;#context#&#125;&#125;</span><br><span class="line">&lt;/context&gt;</span><br></pre></td></tr></table></figure><h2 id="LLM1-prompt-新闻编辑"><a href="#LLM1-prompt-新闻编辑" class="headerlink" title="LLM1 prompt(新闻编辑)"></a>LLM1 prompt(新闻编辑)</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">你是编辑，基于提供的内容，编写一份新闻稿。</span><br><span class="line"></span><br><span class="line">新闻稿需要包含如下元素：</span><br><span class="line">1.标题</span><br><span class="line">2.正文</span><br><span class="line">3.标签</span><br><span class="line"></span><br><span class="line">标签用于新闻稿发布时做标记，便于对历史新闻做分类。</span><br><span class="line"></span><br><span class="line">原始内容如下：</span><br><span class="line"></span><br><span class="line">&#123;&#123;#context#&#125;&#125;</span><br></pre></td></tr></table></figure><h2 id="测试url"><a href="#测试url" class="headerlink" title="测试url"></a>测试url</h2><p><a href="https://olympics.com/en/news/paris-2024-fan-zehndong-takes-table-tennis-individual-gold">https://olympics.com/en/news/paris-2024-fan-zehndong-takes-table-tennis-individual-gold</a></p><h2 id="爬虫结果"><a href="#爬虫结果" class="headerlink" title="爬虫结果"></a>爬虫结果</h2><p><img src="../img/6/1.png" alt=""></p><h2 id="测试结果"><a href="#测试结果" class="headerlink" title="测试结果"></a>测试结果</h2><p><img src="../img/6/2.png" alt=""><br><img src="../img/6/3.png" alt=""></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://www.bilibili.com/video/BV1tn4y1f7pn/?vd_source=a6067b731745325c01a4edfa46bf5a04">https://www.bilibili.com/video/BV1tn4y1f7pn/?vd_source=a6067b731745325c01a4edfa46bf5a04</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Dify </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【MBJC】作品展示1 works</title>
       <link href="/posts/70d2f6ba.html"/>
       <url>/posts/70d2f6ba.html</url>
@@ -419,22 +444,22 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/live2d/message.json"/>
+      <url>/live2d/message.json</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[{"mouseover":[{"selector":".title a","text":["要看看 {text} 么？"]},{"selector":".searchbox","text":["在找什么东西呢，需要帮忙吗？"]}],"click":[{"selector":"#landlord #live2d","text":["不要动手动脚的！快把手拿开~~","真…真的是不知羞耻！","Hentai！","再摸的话我可要报警了！⌇●﹏●⌇","110吗，这里有个变态一直在摸我(ó﹏ò｡)"]}]}]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title></title>
-      <link href="/live2d/message.json"/>
-      <url>/live2d/message.json</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[{"mouseover":[{"selector":".title a","text":["要看看 {text} 么？"]},{"selector":".searchbox","text":["在找什么东西呢，需要帮忙吗？"]}],"click":[{"selector":"#landlord #live2d","text":["不要动手动脚的！快把手拿开~~","真…真的是不知羞耻！","Hentai！","再摸的话我可要报警了！⌇●﹏●⌇","110吗，这里有个变态一直在摸我(ó﹏ò｡)"]}]}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
